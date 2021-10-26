@@ -67,12 +67,6 @@ a{
     display: inline-block;
     margin-top: 50px;
 }
-a:hover{
-    background-color: transparent;
-    color: #fff;
-    border: 2px solid #fff;
-    transition: 0.5s;
-}
 .sedan a{
     color: var(--Bright-orange);
 }
@@ -81,6 +75,12 @@ a:hover{
 }
 .luxury a{
     color: var(--Very-dark-cyan);
+}
+a:hover{
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    transition: 0.5s;
 }
 @media screen and (max-width: 800px){
     .child{
